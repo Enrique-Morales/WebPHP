@@ -14,20 +14,22 @@
   
 <div class="container-fluid main" id="main">
   <div class="arrow"><a href="#main"><img src="../img/64.png" class="img-circle"></img></a></div>
+  <div class="container">
 	<div class="row upper-void">
 	</div>
 	<div class="row">
   <div class="col-sm-4"><h1>PHP y sus frameworks</h1>
   <p>Enrique Morales Cantera</p></div>
   <div class="col-sm-4"><div class="button-in"><a href="#historia"><h2>HISTORIA</h2></a></div></div>
-  <div class="col-sm-4"><div class="button-in"><h2>CARACTERÍSTICAS</h2></div></div>
+  <div class="col-sm-4"><div class="button-in"><a href="#caracteristicas"><h2>CARACTERÍSTICAS</h2></a></div></div>
 </div>
 <div class="row">
   <div class="col-sm-4"></div>
-  <div class="col-sm-4"><div class="button-in"><h2>FRAMEWORKS</h2></div></div>
-  <div class="col-sm-4"><div class="button-in"><h2>FUENTES</h2></div></div>
+  <div class="col-sm-4"><div class="button-in bot"><a href="#frameworks"><h2>FRAMEWORKS</h2></a></div></div>
+  <div class="col-sm-4"><div class="button-in bot"><h2>FUENTES</h2></div></div>
   </div>
    <div class="row hueco"></div>
+ </div>
           
 </div>
 
@@ -35,7 +37,7 @@
 <div class="container-fluid medium-gradient" id="historia"><h1>HISTORIA</h1></div>
 <div class="container-fluid bottom-gradient"></div>
 <div class="container-fluid main">
-
+<div class="container">
 <p>El desarrollo de PHP comenzó en 1994, cuando Rasmus Lerdorf escribió varios ficheros binarios Common Gateway Interface (CGI) en el lenguaje C, los cuales fueron concebidos para gestionar su página web personal. Extendió sus funcionalidades hasta el tratamiento de formularios web y la comunicación con una base de datos, y llamó a ésta implementación “Personal Home Page Tools” o “PHP-Tools”.
 </p>
 <p>
@@ -100,11 +102,12 @@ Las versiones se fueron sucediendo, convirtiendo PHP en una tecnología cada vez
 </table>
 
 </div>
-
+</div>
 <div class="container-fluid top-gradient"></div>
 <div class="container-fluid medium-gradient" id="caracteristicas"><h1>CARACTERÍSTICAS</h1></div>
 <div class="container-fluid bottom-gradient"></div>
 <div class="container-fluid main">
+<div class="container">
 <p>
 PHP es un lenguaje de script del lado del servidor, usado para desarrollar páginas web estáticas, dinámicas o aplicaciones web. Los scripts en PHP sólo se pueden interpretar en un servidor que tenga PHP. Las máquinas cliente sólo pueden acceder al fichero PHP a través de un navegador. Un fichero en PHP contiene etiquetas PHP y termina con la extensión “.php”.
 </p>
@@ -116,6 +119,92 @@ Un script es un conjunto de instrucciones que son interpretadas en tiempo de eje
 </p>
 <p>Comparación entre un lenguaje de programación y un lenguaje de script</p>
 
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Lenguaje de programación</th>
+      <th scope="col">Lenguaje de script</th>
+    </tr>
+    </thead>
+  <tbody>
+    <tr>
+      <td>Tiene todas las características necesarias para el desarrollo integral de aplicaciones</td>
+      <td>Usado principalmente para procesos rutinarios</td>
+    </tr>
+        <tr>
+      <td>El código debe ser compilado antes de ser ejecutado</td>
+      <td>El código suele ser ejecutado sin haber sido compilado (intérprete)</td>
+    </tr>
+        <tr>
+      <td>No necesita ser embebido en otros lenguajes</td>
+      <td>Tiende a ser embebido dentro de otras tecnologías de desarrollo</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>PHP es un script del lado del servidor, lo que quiere decir que se interpreta en el mismo, al contrario que JavaScript, que es un script interpretado por el navegador web en el lado del cliente. Ambos lenguajes pueden ser incrustados en un documento HTML.</p>
+
+<p style="text-align: center"><strong>PARADIGMAS DE PHP</strong></p>
+<div class="btn-group btn-group-justified" style="width:70% margin: auto">
+  <a href="#imperative" class="btn btn-primary">Imperativo</a>
+  <a href="#procedural" class="btn btn-primary">Procedural</a>
+  <a href="#functional" class="btn btn-primary">Funcional</a>
+  <a href="#poo" class="btn btn-primary">OOP</a>
+  <a href="#reflexive" class="btn btn-primary">Reflexivo</a>
+  </div>
+    
+    <h3 id="immperative">Imperativo</h3>
+    <p>Un lenguaje de programación imperativo es aquél que utiliza sentencias para cambiar el estado del programa. De una manera muy parecida al modo imperativo en los lenguajes naturales, un programa imperativo se compone de comandos u órdenes destinadas a la computadora. El término se utiliza para diferenciarlo de los lenguajes declarativos, los cuales se centran más en el resultado esperado que e en los procesos concretos para obtener dicho resultado.</p>
+    <h3 id="procedural">Procedural</h3>
+    <p>Un lenguaje procedural es un tipo de lenguaje imperativo, donde la ejecución del programa está basada en procesos. Un proceso no es más que una secuencia ordenada de instrucciones que se ejecutan de una manera predefinida. Cuando el proceso se termina de ejecutar, el programa retorna a la línea anterior a la llamada al proceso (la dirección de retorno). Los procesos se pueden invocar desde cualquier punto del programa, incluso se pueden llamar unos a otros.</p>
+    <h3 id="functional">Funcional</h3>
+    <p>El paradigma funcional de la programación se basa en el uso de funciones matemáticas, en lugar de imperativas. Éstas, por su naturaleza matemática, evitan el cambio de estado o la mutación de datos. De ésta manera, en el paradigma funcional, una función a la que se le pasan los mismos argumentos siempre tendrá el mismo comportamiento, a diferencia de una función imperativa, la cual tiene efectos secundarios en otros cálculos y puede comportarse de manera distinta en un momento u otro de la ejecución.
+    </p>
+    <h3 id="poo">Orientado a objetos</h3>
+    <p>La orientación a objetos consiste en la encapsulación de la información en “objetos”, una unidad compleja de información. Cada objeto contiene datos en forma de atributos y código ejecutable en forma de métodos o funciones. Los objetos trabajan enviándose mensajes unos a otros. De ésta manera, la información está mejor organizada y los programas son más fáciles de entender y manipular.</p>
+    <h3 id="reflexive">Reflexivo</h3>
+    <p>En informática, la reflexión es la capacidad de un programa de analizarse a sí mismo y modificar su propia estructura o comportamiento (concretamente los valores, metadatos, propiedades y funciones) en tiempo de ejecución. Este concepto sirve para crear código muy potente, y se considera una práctica de la metaprogramación.</p>
+ 
+    
+
+
+</div>
+</div>
+
+<div class="container-fluid top-gradient"></div>
+<div class="container-fluid medium-gradient" id="frameworks"><h1>FRAMEWORKS</h1></div>
+<div class="container-fluid bottom-gradient"></div>
+<div class="container-fluid main">
+<div class="container">
+
+<div class="btn-group btn-group-justified" style="width:70% margin: auto">
+  <a href="#laravel" class="btn btn-primary">Laravel</a>
+  <a href="#symphony" class="btn btn-primary">Symphony</a>
+  <a href="#zend" class="btn btn-primary">Zend Framework</a>
+  <a href="#phalcon" class="btn btn-primary">Phalcon</a>
+  <a href="#fuelPHP" class="btn btn-primary">FuelPHP</a>
+  </div>
+    
+    <h3 id="laravel">Laravel</h3>
+    <p>Laravel es un framework de PHP relativamente nuevo, pero indiscutiblemente el más popular hoy en día. Es gratuito y de código abierto, y se utiliza en el desarrollo web en PHP siguiendo el patrón de arquitectura MVC (modelo-vista-controlador). Aprender Laravel es fácil pues está totalmente documentado, y además su página web oficial ofrece muchos videotutoriales.  
+    Algunas de sus características son: permite desarrollar aplicaciones más fácil y rápido, un sistema de archivos con un gestor de dependencias dedicado y utilidades que ayudan en el despliegue y el mantenimiento.
+
+    Incluye Symphony como dependencia propia.
+    </p>
+    <h3 id="symphony">Symphony</h3>
+    <p>Symphony es tanto un framework para el desarrollo web en PHP como un conjunto de componentes reusables de PHP. Sus librerías permiten una fácil integración con otras aplicaciones y con frameworks de front-end como AngularJS. Cuando se trata de desarrollar proyectos de gran tamaño, Symphony puede ser de gran utilidad. Además, está respaldado por una amplia comunidad de desarrolladores, lo cual garantiza su estabilidad y robustez.
+
+    Symphony fué pionero en desarrollar una barra de herramientas de desarrollador que permite detectar y corregir errores en fases tempranas del desarrollo. Ésta barra es de uso generalizado en otros frameworks de hoy en día.
+    </p>
+    <h3 id="zend">Zend Framework</h3>
+    <p>El paradigma funcional de la programación se basa en el uso de funciones matemáticas, en lugar de imperativas. Éstas, por su naturaleza matemática, evitan el cambio de estado o la mutación de datos. De ésta manera, en el paradigma funcional, una función a la que se le pasan los mismos argumentos siempre tendrá el mismo comportamiento, a diferencia de una función imperativa, la cual tiene efectos secundarios en otros cálculos y puede comportarse de manera distinta en un momento u otro de la ejecución.
+    </p>
+    <h3 id="phalcon">Phalcon</h3>
+    <p>La orientación a objetos consiste en la encapsulación de la información en “objetos”, una unidad compleja de información. Cada objeto contiene datos en forma de atributos y código ejecutable en forma de métodos o funciones. Los objetos trabajan enviándose mensajes unos a otros. De ésta manera, la información está mejor organizada y los programas son más fáciles de entender y manipular.</p>
+    <h3 id="fuelPHP">FuelPHP</h3>
+    <p>En informática, la reflexión es la capacidad de un programa de analizarse a sí mismo y modificar su propia estructura o comportamiento (concretamente los valores, metadatos, propiedades y funciones) en tiempo de ejecución. Este concepto sirve para crear código muy potente, y se considera una práctica de la metaprogramación.</p>
+
+</div>
 </div>
 
 </body>
