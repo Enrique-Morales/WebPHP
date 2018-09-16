@@ -64,19 +64,3 @@ color: #F0EBF0;
 .btn-group-justified a {
 	font-size:2em;
 }
-
-.imperative, .procedural, .functional, .poo, .reflexive {
-	display: none;
-}
-
-.imperative-btn:active ~ .imperative {
-
-	display: block;
-
-}
-
-.imperative-btn:active ~ .default-blank {
-
-	display: none;
-
-}
