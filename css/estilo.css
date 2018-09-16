@@ -1,6 +1,23 @@
+body {
+	font-family: Verdana;
+	font-size: 22px;
+}
+
 .main {
 background-color: #24224F;
 color: #F0EBF0;
+}
+
+.caption {
+	font-size: 18px;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+.header {
+	font-size: 5em;
 }
 
 .upper-void{
@@ -10,12 +27,15 @@ color: #F0EBF0;
 .button-in {
 	border: 2px solid white;
 	text-align: center;
-	position: relative;
-	bottom: 30px;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
     
+}
+
+.bot {
+	position: relative;
+	bottom: 40px;
 }
 
 .button-in a {
@@ -37,7 +57,7 @@ color: #F0EBF0;
 
 .hueco {
 
-	height: 1000px;
+	height: 500px;
 }
 
 .top-gradient {
@@ -54,6 +74,7 @@ color: #F0EBF0;
 	text-align: center;
 	font-size: 5em;
 	color:yellow;
+	font-family: Verdana;
 }
 
 .bottom-gradient {
@@ -62,5 +83,9 @@ color: #F0EBF0;
 }
 
 .btn-group-justified a {
-	font-size:2em;
+	font-size:22px;
+}
+
+.photo, .paradigm {
+	text-align: center;
 }
