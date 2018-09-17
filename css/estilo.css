@@ -30,12 +30,12 @@ h1 {
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    
+    margin: 28px 0;
 }
 
 .bot {
-	position: relative;
-	bottom: 40px;
+	//position: relative;
+	//bottom: 40px;
 }
 
 .button-in a {
@@ -50,8 +50,8 @@ h1 {
 .arrow {
 
 	position: fixed;
-	top:300px;
-	left:50px;
+	top:200px;
+	left:10px;
 
 }
 
