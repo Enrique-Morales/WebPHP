@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>PHP & frameworks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS de Bootstrap v3.3.7 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- CSS particular -->
+  <link rel="stylesheet" href="css/estilo.css">
+  
+</head>
+<body>
+  
+<div class="container-fluid main" id="main">
+  
+  <ul class="nav flex-column arrow">
+  <li class="nav-item">
+    <a class="nav-link btn btn-primary" href="#main"><img src="img/H24.png"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link btn btn-primary" href="#historia">H</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link btn btn-primary" href="#caracteristicas">C</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link btn btn-primary" href="#frameworks">F</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link btn btn-primary" href="#fuentes"><img src="img/L64.png" style="width: 24px"></a>
+  </li>
+</ul>
+  <div class="container">
+	<div class="row upper-void">
+	</div>
+	<div class="row">
+  <div class="col-sm-4"><img src="img/php-logo.png"style="width:100%;"><h1>& frameworks</h1>
+  <p>Enrique Morales Cantera</p></div>
+  <div class="col-sm-4"><div class="button-in"><a href="#historia"><h2>HISTORIA</h2></a></div><div class="button-in bot"><a href="#frameworks"><h2>FRAMEWORKS</h2></a></div></div>
+  <div class="col-sm-4"><div class="button-in"><a href="#caracteristicas"><h2>CARACTERÍSTICAS</h2></a></div><div class="button-in bot"><a href="#fuentes"><h2>FUENTES</h2></a></div></div>
+</div>
+
+   <div class="row hueco"></div>
+ </div>
+          
+</div>
+
+<div class="container-fluid top-gradient"></div>
+<div class="container-fluid medium-gradient" id="historia"><h1>HISTORIA</h1></div>
+<div class="container-fluid bottom-gradient"></div>
+<div class="container-fluid main">
+<div class="container">
+
+<br><br>
+
+<div class="photo" style="float:right">
+  <img src="img/rasmus.jpg" alt="Lights"  class="img-rounded" style="width:150px">
+</div>
+<p>El desarrollo de PHP comenzó en 1994, cuando Rasmus Lerdorf escribió varios ficheros binarios Common Gateway Interface (CGI) en el lenguaje C, los cuales fueron concebidos para gestionar su página web personal. Extendió sus funcionalidades hasta el tratamiento de formularios web y la comunicación con una base de datos, y llamó a ésta implementación “Personal Home Page Tools” o “PHP-Tools”.
+</p>
+
+<br>
+
+<p>
+El 8 de Junio de 1995 se lanzó oficialmente la primera versión de PHP, conocida como la versión 1.0. Esta versión, aunque aún no era un lenguaje de programación totalmente independiente, ya contenía varias características que vemos en PHP hoy en día: variables tipo Perl (de ámbito dinámico y estático), tratamiento de formularios web e incrustación del código en un documento HTML.
+</p>
+<br>
+<div class="photo" style="float:left; margin-right:8px">
+  <img src="img/suraski.jpg" alt="Lights" class="img-rounded" style="width:150px">
+</div>
+<div class="photo" style="float:right">
+  <img src="img/gutmans.jpg" alt="Lights"  class="img-rounded" style="width:150px">
+</div>
+
+<p>
+El proyecto, aunque empezó desarrollándolo Lerdorf a título personal, fué revisado en 1997 por Andi Gutmans y Zeev Suraski, quienes cambiaron el analizador sintáctico (parser) y terminaron por definir PHP como un lenguaje de programación independiente, lanzando la versión 3.0 . A partir de entonces, las siglas PHP pasaron a significar “Preprocesador de hipertexto”.
+</p>
+
+<br>
+
+<p>
+El proyecto crecía en popularidad con el paso del tiempo. En 1998 Gutmans y Suraski cambiaron el núcleo de PHP y crearon el Zend Engine (Motor Zend). Éste motor mejoraba la ejecución de aplicaciones complejas y aportaba modularidad al código fuente. En 2004, se añadieron funcionalidades del paradigma orientado a objetos, como un modelo de datos orientado a objetos.
+</p>
+
+<br>
+
+<p>
+Las versiones se fueron sucediendo, convirtiendo PHP en una tecnología cada vez más robusta y potente. Actualmente, la versión más reciente de PHP es la 7.2 . Sus características se verán en profundidad en el apartado “Características de PHP”.
+</p>
+<br>
+<br>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Año</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+
+  <tr>
+    <td>1.0</td>
+    <td>1995</td>
+    <td>Se producen varios ficheros CGI para la gestión de un formulario y una base de datos de una página web. Es la primera vez que se utiliza el nombre PHP.</td>
+  </tr>
+  <tr>
+    <td>2.0</td>
+    <td>1997</td>
+    <td>A partir de ésta versión, podemos considerar por primera vez PHP como un lenguaje autónomo.</td>
+  </tr>
+  <tr>
+    <td>3.0</td>
+    <td>1998</td>
+    <td>El desarrollo del proyecto crece en desarrolladores. Reescribieron el parser o analizador sintáctico. Se considera el nacimiento del PHP que conocemos hoy en día.</td>
+  </tr>
+  <tr>
+    <td>4.0</td>
+    <td>2000</td>
+    <td>Cambiaron el núcleo, produciendo el Motor Zend.</td>
+  </tr>
+  <tr>
+    <td>5.0</td>
+    <td>2004</td>
+    <td>Se desarrolló el Motor Zend 2. Se añadieron características de la orientación a objetos.</td>
+  </tr>
+  <tr>
+    <td>6.0</td>
+    <td>---</td>
+    <td>No terminó de desarrollarse, si no que las mejoras planteadas se incluyeron en las versiones 5.3 y 5.4. Se pretendió integrar algunas características Unicode al lenguaje.</td>
+  </tr>
+  <tr>
+    <td>7.0</td>
+    <td>2015</td>
+    <td>Se produjo el Motor Zend 3, aumentando la eficiencia y la velocidad de ejecución de los procesos.</td>
+  </tr>
+</table>
+
+<br><br>
+
+</div>
+</div>
+<div class="container-fluid top-gradient"></div>
+<div class="container-fluid medium-gradient" id="caracteristicas"><h1>CARACTERÍSTICAS</h1></div>
+<div class="container-fluid bottom-gradient"></div>
+<div class="container-fluid main">
+<br><br>
+<div class="container">
+<p>
+PHP es un lenguaje de <b>script</b> del lado del <b>servidor</b>, usado para desarrollar páginas web estáticas, dinámicas o aplicaciones web. Los scripts en PHP sólo se pueden <b>interpretar</b> en un servidor que tenga PHP. Las máquinas <b>cliente</b> sólo pueden acceder al fichero PHP a través de un navegador. Un fichero en PHP contiene etiquetas PHP y termina con la extensión “.php”.
+</p>
+<br>
+<p>
+<strong>¿Qué es un lenguaje de script?</strong>
+</p>
+<br>
+<p>
+Un script es un conjunto de instrucciones que son interpretadas <b>en tiempo de ejecución</b>. Un lenguaje de script es un lenguaje que interpreta scripts en tiempo de ejecución. Los scripts suelen estar embebidos en otros entornos de software. El objetivo de los scripts suele ser mejorar el rendimiento o realizar tareas rutinarias para otra aplicación.
+</p>
+<br>
+<p><strong>Comparación entre un lenguaje de programación y un lenguaje de script</strong></p>
+<br>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Lenguaje de programación</th>
+      <th scope="col">Lenguaje de script</th>
+    </tr>
+    </thead>
+  <tbody>
+    <tr>
+      <td>Tiene todas las características necesarias para el desarrollo integral de aplicaciones</td>
+      <td>Usado principalmente para procesos rutinarios</td>
+    </tr>
+        <tr>
+      <td>El código debe ser compilado antes de ser ejecutado</td>
+      <td>El código suele ser ejecutado sin haber sido compilado (intérprete)</td>
+    </tr>
+        <tr>
+      <td>No necesita ser embebido en otros lenguajes</td>
+      <td>Tiende a ser embebido dentro de otras tecnologías de desarrollo</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<p>PHP es un script del lado del servidor, lo que quiere decir que se interpreta en el mismo, al contrario que JavaScript, que es un script interpretado por el navegador web en el lado del cliente. Ambos lenguajes pueden ser incrustados en un documento HTML.</p>
+<br>
+<p style="text-align: center"><strong>PARADIGMAS DE PHP</strong></p>
+<br>
+<div class="btn-group btn-group-justified" style="width:70% margin: auto; font-size: 22px;">
+  <a href="#imperative" class="btn btn-primary">Imperativo</a>
+  <a href="#procedural" class="btn btn-primary">Procedural</a>
+  <a href="#functional" class="btn btn-primary">Funcional</a>
+  <a href="#poo" class="btn btn-primary">OOP</a>
+  <a href="#reflexive" class="btn btn-primary">Reflexivo</a>
+  </div>
+    <br>
+    <h3 id="immperative" class="paradigm">IMPERATIVO</h3>
+    <br>
+    <div class="photo">
+    <img src="img/imperative.png" class="img-rounded" style="width:300px;">
+    </div>
+    <br>
+    <p>Un lenguaje de programación imperativo es aquel que utiliza <b>sentencias</b> para cambiar el estado del programa. De una manera muy parecida al modo imperativo en los lenguajes naturales, un programa imperativo se compone de comandos u órdenes destinadas a la computadora. El término se utiliza para diferenciarlo de los lenguajes <b>declarativos</b>, los cuales se centran más en el resultado esperado que en los procesos concretos para obtener dicho resultado.</p><br>
+    <h3 id="procedural" class="paradigm">PROCEDURAL</h3>
+    <br>
+    <div class="photo">
+    <img src="img/kid-stair.jpg" class="img-rounded" style="width:300px;">
+    </div>
+    <br>
+    <p>Un lenguaje procedural es un tipo de lenguaje imperativo, donde la ejecución del programa está basada en <b>procesos</b>. Un proceso no es más que una secuencia ordenada de instrucciones que se ejecutan de una manera predefinida. Cuando el proceso se termina de ejecutar, el programa retorna a la línea anterior a la llamada al proceso (la dirección de retorno). Los procesos se pueden invocar desde cualquier punto del programa, e incluso se pueden llamar unos a otros.</p><br>
+    <h3 id="functional" class="paradigm">FUNCIONAL</h3>
+    <br>
+    <div class="photo">
+    <img src="img/owl.jpg" class="img-rounded" style="width:300px;">
+    </div>
+    <br>
+    <p>El paradigma funcional de la programación se basa en el uso de funciones matemáticas, en lugar de imperativas. Éstas, por su naturaleza matemática, evitan el <b>cambio de estado</b> o la <b>mutación de datos</b>. De ésta manera, en el paradigma funcional, una función a la que <b>se le pasan los mismos argumentos</b> siempre tendrá el mismo comportamiento, a diferencia de una función imperativa, la cual tiene efectos secundarios en otros cálculos y puede comportarse de manera distinta en un momento u otro de la ejecución.</p><br>
+    <p>La programación funcional es un tipo de <b>programación declarativa</b></p><br>
+    <h3 id="poo" class="paradigm">ORIENTADO A OBJETOS</h3>
+    <br>
+    <div class="photo">
+    <img src="img/classesandobjects.jpg" class="img-rounded" style="width:400px;">
+    </div>
+    <br>
+    <p>La orientación a objetos consiste en la <b>encapsulación</b> de la información en <b>objetos</b>, una unidad compleja de información. Cada objeto contiene datos en forma de <b>atributos</b> y código ejecutable en forma de <b>métodos</b> o <b>funciones</b>. Los objetos trabajan enviándose mensajes unos a otros. De ésta manera, la información está mejor organizada y los programas son más fáciles de entender y manipular.</p><br>
+    <h3 id="reflexive" class="paradigm">REFLEXIVO</h3>
+    <br>
+    <div class="photo">
+    <img src="img/refllexive.jpg" class="img-rounded" style="width:240px;">
+    </div>
+    <br>
+    <p>En informática, la reflexión es la capacidad de un programa de analizarse a sí mismo y modificar su propia estructura o comportamiento (concretamente los valores, metadatos, propiedades y funciones) en tiempo de ejecución. Este concepto sirve para crear código muy potente, y se considera una práctica de la metaprogramación.</p>
+ 
+    
+<br><br>
+
+</div>
+</div>
+
+
+
+<div class="container-fluid top-gradient"></div>
+<div class="container-fluid medium-gradient" id="frameworks"><h1>FRAMEWORKS</h1></div>
+<div class="container-fluid bottom-gradient"></div>
+<div class="container-fluid main">
+<br><br>
+<div class="container">
+
+<div class="btn-group btn-group-justified" style="width:70% margin: auto">
+  <a href="#laravel" class="btn btn-primary">Laravel</a>
+  <a href="#symphony" class="btn btn-primary">Symphony</a>
+  <a href="#zend" class="btn btn-primary">Zend Framework</a>
+  <a href="#phalcon" class="btn btn-primary">Phalcon</a>
+  <a href="#fuelPHP" class="btn btn-primary">FuelPHP</a>
+  </div>
+    <br>
+    <h3 id="laravel">LARAVEL</h3><br>
+    <p>Laravel es un framework de PHP relativamente nuevo, pero indiscutiblemente el más popular hoy en día. Es <b>gratuito</b> y de <b>código abierto</b>, y se utiliza en el desarrollo web en PHP siguiendo el patrón de arquitectura MVC (modelo-vista-controlador). Aprender Laravel es fácil pues <b>está totalmente documentado</b>, y además su página web oficial ofrece muchos videotutoriales.  
+    Algunas de sus características son: permite desarrollar aplicaciones más fácil y rápido, un sistema de archivos con un gestor de dependencias dedicado y utilidades que ayudan en el despliegue y el mantenimiento.
+    </p><br><p>
+    Incluye Symphony como dependencia propia.
+    </p><br>
+    <h3 id="symphony">SYMPHONY</h3><br>
+    <p>Symphony es tanto un framework para el desarrollo web en PHP como un conjunto de componentes reusables de PHP. Sus librerías permiten una <b>fácil integración con otras aplicaciones y con frameworks de front-end</b> como AngularJS. Cuando se trata de desarrollar <b>proyectos de gran tamaño</b>, Symphony puede ser de gran utilidad. Además, está <b>respaldado por una amplia comunidad</b> de desarrolladores, lo cual garantiza su estabilidad y robustez.
+    </p><br><p>
+    Symphony fué pionero en desarrollar una barra de herramientas de desarrollador que permite detectar y corregir errores en fases tempranas del desarrollo. Ésta barra es de uso generalizado en otros frameworks de hoy en día.
+    </p><br>
+    <h3 id="zend">ZEND FRAMEWORK</h3><br>
+    <p>Zend es un framework muy estable y robusto con un amplio rango de <b>opciones de configuración</b>. Reúne un grupo de funcionalidades como un editor intuitivo de arrastrar y soltar con soporte para front-end, herramientas de programación criptográfica, un instalador de bases de datos y herramientas para debuguear instantáneamente vía online. <b>Tiene colaboraciones con IBM, Microsoft, Google y Adobe.</b></p><br>
+    <p>
+    No es recomendado para proyectos pequeños, pues es difícil de aprender.
+    </p><br>
+    <h3 id="phalcon">PHALCON</h3><br>
+    <p>Phalcon está escrito en C y C++, lo que lo convierte en el framework PHP más <b>rápido</b> de todos, pues está <b>optimizado</b> a muy bajo nivel. De ésta manera, el consumo de recursos por parte de Phalcon es mínimo. Algunas de sus funcionalidades son un auto-loader, un gestor de recursos, características de seguridad, portabilidad, y una documentación muy amplia. A diferencia de Laravel, Phalcon no es de código abierto.
+    </p><br>
+    <h3 id="fuelPHP">FUELPHP</h3><br>
+    <p>FuelPHP es un framework PHP <b>modular</b>, <b>flexible</b> y <b>full-stack</b> que no sólo soporta el MVC (modelo-vista-controlador) si no también su vesión evolucionada, el HMVC, y ambos a nivel de arquitectura. FuelPHP añade además una clase opcional llamada “Presenter” que intermedia entre el controlador y la vista y cuya función es mantener la lógica necesaria para generar vistas.
+    </p><br>
+    <p>
+    El framework es capaz de gestionar la seguridad del proyecto gracias a un filtro de entrada y URIs y un codificador de salida. Además tiene su propio framework de autentificación.
+    </p>
+<br><br>
+</div>
+</div>
+
+<div class="container-fluid top-gradient"></div>
+<div class="container-fluid medium-gradient" id="fuentes"><h1>FUENTES</h1></div>
+<div class="container-fluid bottom-gradient"></div>
+<div class="container-fluid main">
+<br><br>
+<div class="container">
+
+<p><strong>Historia de PHP:</strong></p>
+
+<ul>
+  <li>Php.net - Manual<br>
+    <a href="http://php.net/manual/es/history.php.php">http://php.net/manual/es/history.php.php</a></li>
+  <li>Nusphere - The History of PHP<br>
+    <a href="http://www.nusphere.com/php/php_history.htm?">http://www.nusphere.com/php/php_history.htm?</a></li>
+  <li>Wikipedia - PHP<br>
+    <a href="https://en.wikipedia.org/wiki/PHP#PHP_7">https://en.wikipedia.org/wiki/PHP#PHP_7</a></li>
+</ul>
+
+<br>
+
+<p><strong>Características de PHP:</strong></p>
+
+<ul>
+  <li>Php.net - What is PHP?<br>
+    <a href="http://php.net/manual/en/intro-whatis.php">http://php.net/manual/en/intro-whatis.php</a></li>
+  <li>Guru99 - What is PHP? Write your first PHP program<br>
+    <a href="https://www.guru99.com/what-is-php-first-php-program.html">https://www.guru99.com/what-is-php-first-php-program.html</a></li>
+  <li>Quora - What is PHP?<br>
+    <a href="https://www.quora.com/What-is-PHP">https://www.quora.com/What-is-PHP</a></li>
+  <li>Sitesbay - Features of PHP<br>
+    <a href="https://www.sitesbay.com/php/php-features-of-php">https://www.sitesbay.com/php/php-features-of-php</a></li>
+  <li></li>
+</ul>
+
+<p><strong>Frameworks de PHP:</strong></p>
+
+<ul>
+  <li>Medium.com - Most used PHP Frameworks in 2017<br>
+    <a href="https://medium.com/@vishva.eleganzit/most-used-php-frameworks-in-2017-73572e562fe9">https://medium.com/@vishva.eleganzit/most-used-php-frameworks-in-2017-73572e562fe9</a></li>
+  <li>Stackify.com - Top 10 PHP Frameworks for Web Development<br>
+    <a href="https://stackify.com/php-frameworks-development/">https://stackify.com/php-frameworks-development/</a></li>
+  <li>Coders Eye - 11 Best PHP Frameworks for Modern Web Developers in 2018<br>
+    <a href="https://coderseye.com/best-php-frameworks-for-web-developers/">https://coderseye.com/best-php-frameworks-for-web-developers/</a></li>
+  <li>Hongkiat - 10 PHP Frameworks For Developers – Best of<br>
+    <a href="https://www.hongkiat.com/blog/best-php-frameworks/">https://www.hongkiat.com/blog/best-php-frameworks/</a></li>
+</ul>
+
+</div>
+</div>
+</body>
+</html>

@@ -4,7 +4,7 @@ body {
 }
 
 .main {
-background-color: #24224F;
+background-color: #090821;
 color: #F0EBF0;
 }
 
@@ -31,6 +31,7 @@ h1 {
     transition-duration: 0.4s;
     cursor: pointer;
     margin: 28px 0;
+    overflow: hidden;
 }
 
 .bot {
@@ -84,6 +85,36 @@ h1 {
 .bottom-gradient {
 	background-image: linear-gradient(#5D5B90, #24224F);
 	height: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  
+.top-gradient {
+	background-image: linear-gradient(#24224F, #5D5B90);
+	height: 20px;
+}
+
+.medium-gradient {
+	background-color: #5D5B90;
+	height: 80px;	
+}
+
+.medium-gradient h1 {
+	text-align: center;
+	font-size: 2em;
+	color:yellow;
+	font-family: Verdana;
+}
+
+.bottom-gradient {
+	background-image: linear-gradient(#5D5B90, #24224F);
+	height: 20px;
+}
+
+.arrow {
+	display:none;
+}
+
 }
 
 .btn-group-justified a {
